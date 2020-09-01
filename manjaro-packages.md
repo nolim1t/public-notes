@@ -29,7 +29,7 @@ Important packages to get working
 
 ## Other stuff of note
 
-= [fswatch](https://github.com/emcrisostomo/fswatch.git)
+- [fswatch](https://github.com/emcrisostomo/fswatch.git)
 - nvm
 - pyenv (so we can install whatever version of python)
 - rbenv
