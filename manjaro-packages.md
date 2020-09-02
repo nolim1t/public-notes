@@ -2,6 +2,26 @@
 
 ArchLinux seems to be a little different to using `yum` or `pkg` or `apt`, but uses `pacman` for package management.
 
+## Getting set up
+
+Check out my collection of UNIX [dotfiles](https://gitlab.com/nolim1t/dotfiles). Feel free to suggest others.
+
+```bash
+mkdir src
+cd src
+git clone https://gitlab.com/nolim1t/dotfiles.git
+cd ~
+# my vimrc
+ln -s src/dotfiles/vimrc .vimrc
+# my shell profile
+# or pick out stuff
+ln -s src/dotfiles/profile .profile
+# neovim
+mkdir -p .config/nvim
+cd .config/nvim
+ln -s ~/src/dotfiles/nvim/init.vim init.vim
+```
+
 ## Manjaro Linux Packages
 
 Important packages to get working
@@ -25,16 +45,16 @@ Important packages to get working
 - net-tools (may be default)
 - tmux
 - vim (may be default)
-- neovim-qt (for a cool window)
+- neovim / neovim-qt (for a cool window). Starting to like this more than VIM
 
 ## Other stuff of note
 
-- [get-pip.py](https://github.com/pypa/get-pip)
+- [get-pip.py](https://github.com/pypa/get-pip) - because manjaro doesn't have pip installed?
 - [fswatch](https://github.com/emcrisostomo/fswatch.git)
 - [nvm](https://github.com/nvm-sh/nvm)
 - [Tor Browser](https://git.torproject.org/tor-browser.git)
 - [pyenv](https://github.com/pyenv/pyenv) (so we can install whatever version of python)
-- rbenv
+- [rbenv](https://github.com/rbenv/rbenv)
 
 ## Python libraries
 
