@@ -29,9 +29,11 @@ Important packages to get working
 
 ## Other stuff of note
 
+- [get-pip.py](https://github.com/pypa/get-pip)
 - [fswatch](https://github.com/emcrisostomo/fswatch.git)
-- nvm
-- pyenv (so we can install whatever version of python)
+- [nvm](https://github.com/nvm-sh/nvm)
+- [Tor Browser](https://git.torproject.org/tor-browser.git)
+- [pyenv](https://github.com/pyenv/pyenv) (so we can install whatever version of python)
 - rbenv
 
 ## Python libraries
