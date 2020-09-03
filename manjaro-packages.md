@@ -51,6 +51,8 @@ Important packages to get working
 - bison
 - linux-headers
 - bc
+- uboot-tools
+- mtools
 
 
 ## Other stuff of note
