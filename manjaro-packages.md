@@ -53,7 +53,7 @@ Important packages to get working
 - bc
 - uboot-tools
 - mtools
-
+ - libcryptui
 
 ## Other stuff of note
 
