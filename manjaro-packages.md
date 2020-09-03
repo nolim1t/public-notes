@@ -46,6 +46,12 @@ Important packages to get working
 - tmux
 - vim (may be default)
 - neovim / neovim-qt (for a cool window). Starting to like this more than VIM
+- patch (wow seriously?!)
+- flex
+- bison
+- linux-headers
+- bc
+
 
 ## Other stuff of note
 
