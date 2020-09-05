@@ -53,7 +53,8 @@ Important packages to get working
 - bc
 - uboot-tools
 - mtools
- - libcryptui
+- libcryptui
+
 
 ## Other stuff of note
 
@@ -63,6 +64,7 @@ Important packages to get working
 - [Tor Browser](https://git.torproject.org/tor-browser.git)
 - [pyenv](https://github.com/pyenv/pyenv) (so we can install whatever version of python)
 - [rbenv](https://github.com/rbenv/rbenv)
+- [VSCodium](https://vscodium.com/)
 
 ## Python libraries
 
