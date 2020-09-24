@@ -1,5 +1,19 @@
 # PostMarketOS Hardware
 
+## Accelerometer
+
+Currently as of Sep-24-2020 build
+
+`/sys/devices/platform/soc/1c2b00.i2c/i2c-2/2-0068/iio:device2`
+or
+`/sys/bus/iio/devices/iio:device2`
+
+### Sensors
+
+* `in_accel_x_raw`
+* `in_accel_y_raw`
+* `in_accel_z_raw`
+
 ## Camera - Front
 
 `/dev/v4l-subdev1`
