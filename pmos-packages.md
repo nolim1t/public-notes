@@ -33,9 +33,14 @@ ln -s ~/src/dotfiles/nvim/init.vim init.vim
 ```
 
 
-## Convergence Edition Default Install
+## Convergence Edition 
 
-What I set up
+* Insert JumptDrive SD card and boot up
+* Plug into PC
+* go to [`pmbootstrap`](https://gitlab.com/postmarketOS/pmbootstrap.git) repo and run `./pmbootstrap.py init`
+* To export an image Follow the instructions at https://wiki.postmarketos.org/wiki/PINE64_PinePhone_(pine64-pinephone)#Internal_eMMC
+
+
 
 ### Alpine Packages
 
@@ -45,5 +50,6 @@ What I set up
 - alpine-sdk
 - neovim
 - python3 and python3-pip (not exact)
+- v4l-utils (for media-ctl)
 
 more coming soon
