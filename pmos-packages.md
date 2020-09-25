@@ -51,5 +51,7 @@ ln -s ~/src/dotfiles/nvim/init.vim init.vim
 - neovim
 - python3 and python3-pip (not exact)
 - v4l-utils (for media-ctl)
+- libffi-dev
+- py3-pip
 
 more coming soon
