@@ -1,5 +1,13 @@
 # PostMarketOS Hardware
 
+## Magnetometer
+
+### Heading
+
+```
+cat /sys/bus/iio/devices/iio:device2/in_magn_y_raw
+```
+
 ## Accelerometer
 
 Currently as of Sep-24-2020 build
