@@ -49,9 +49,12 @@ ln -s ~/src/dotfiles/nvim/init.vim init.vim
 - gnupg
 - alpine-sdk
 - neovim
-- python3 and python3-pip (not exact)
+- python3 and py3-pip
 - v4l-utils (for media-ctl)
 - libffi-dev
 - py3-pip
+- python3-dev
+- build-essential
+
 
 more coming soon
