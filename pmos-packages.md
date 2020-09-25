@@ -55,6 +55,7 @@ ln -s ~/src/dotfiles/nvim/init.vim init.vim
 - py3-pip
 - python3-dev
 - build-essential
+- openssl-dev
 
 
 more coming soon
