@@ -56,6 +56,7 @@ ln -s ~/src/dotfiles/nvim/init.vim init.vim
 - python3-dev
 - openssl-dev
 - tmux
+- go
 
 ### RC Update stuff after
 
