@@ -48,14 +48,18 @@ ln -s ~/src/dotfiles/nvim/init.vim init.vim
 - avahi
 - gnupg
 - alpine-sdk
+- vim
 - neovim
-- python3 and py3-pip
-- v4l-utils (for media-ctl)
+- python3
 - libffi-dev
 - py3-pip
 - python3-dev
-- build-essential
 - openssl-dev
+- tmux
 
+### RC Update stuff after
 
-more coming soon
+```bash
+rc-update add docker
+rc-update add avahi-daemon boot
+```
