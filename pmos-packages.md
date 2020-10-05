@@ -60,6 +60,7 @@ ln -s ~/src/dotfiles/nvim/init.vim init.vim
 - tmux
 - go
 - rust
+- jq
 
 ### RC Update stuff after
 
