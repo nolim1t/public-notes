@@ -61,6 +61,7 @@ ln -s ~/src/dotfiles/nvim/init.vim init.vim
 - go
 - rust
 - jq
+- autossh
 
 ### RC Update stuff after
 
