@@ -44,6 +44,8 @@ ln -s ~/src/dotfiles/nvim/init.vim init.vim
 
 ### Alpine Packages
 
+- bash (seems installed)
+- git (seems installed)
 - docker
 - avahi
 - gnupg
@@ -57,6 +59,7 @@ ln -s ~/src/dotfiles/nvim/init.vim init.vim
 - openssl-dev
 - tmux
 - go
+- rust
 
 ### RC Update stuff after
 
