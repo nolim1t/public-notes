@@ -1,5 +1,17 @@
 # PostMarketOS Hardware
 
+## GPS
+
+### AT Commands
+
+* `AT+QGPS+1` - Activate GPS
+* `AT+QGPSEND` - Deactivate GPS 
+* `AT+CGPSINF=0` - Get location information (?). Need to try this with a clear sky.
+
+### Command invocation
+
+Pipe the command to `atinout - /dev/EG25.AT -` (This requires access to the `dialout` group)
+
 ## Magnetometer
 
 ### Heading
