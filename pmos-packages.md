@@ -62,6 +62,7 @@ ln -s ~/src/dotfiles/nvim/init.vim init.vim
 - rust
 - jq
 - autossh
+- tinyproxy
 
 ### RC Update stuff after
 
