@@ -1,5 +1,30 @@
 # PostMarketOS Hardware
 
+This document is for accessing different parts of the hardware for development.
+
+## Battery Sensor
+
+**Pathname:** `/sys/class/power_supply/axp20x-battery`
+
+* `/sys/class/power_supply/axp20x-battery/present` - Battery Present (1 or 0)
+* `/sys/class/power_supply/axp20x-battery/capacity` - Battery capacity
+* `/sys/class/power_supply/axp20x-battery/health` - Battery health
+* `/sys/class/power_supply/axp20x-battery/status` - Battery Status 
+* `/sys/class/power_supply/axp20x-battery/voltage_now` - Voltage entering battery
+* `/sys/class/power_supply/axp20x-battery/voltage_max_design` - Voltage maximum
+* `/sys/class/power_supply/axp20x-battery/voltage_min_design` - Voltage minimum
+* `/sys/class/power_supply/axp20x-battery/utype` - All types pertaining to battery
+
+## USB charge sensor
+
+**Pathname** `/sys/devices/platform/soc/1f03400.rsb/sunxi-rsb-3a3/axp20x-usb-power-supply/power_supply/axp20x-usb`
+
+* `/sys/devices/platform/soc/1f03400.rsb/sunxi-rsb-3a3/axp20x-usb-power-supply/power_supply/axp20x-usb/uevent` ALl types pertaining to usb 
+* `/sys/devices/platform/soc/1f03400.rsb/sunxi-rsb-3a3/axp20x-usb-power-supply/power_supply/axp20x-usb/present` Is plugged in or not.
+* `/sys/devices/platform/soc/1f03400.rsb/sunxi-rsb-3a3/axp20x-usb-power-supply/power_supply/axp20x-usb/online` Is plugged in or not?
+* `/sys/devices/platform/soc/1f03400.rsb/sunxi-rsb-3a3/axp20x-usb-power-supply/power_supply/axp20x-usb/health` Powqer supply health 
+
+
 ## GPS
 
 ### AT Commands
