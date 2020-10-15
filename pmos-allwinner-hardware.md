@@ -23,6 +23,8 @@ Seems to be able to get temperature
 * `/sys/class/power_supply/axp20x-battery/voltage_min_design` - Voltage minimum
 * `/sys/class/power_supply/axp20x-battery/utype` - All types pertaining to battery
 
+Just a simple GOLANG (trying to do some golang) script for querying the capacity [here](https://gitlab.com/nolim1t/documents/-/blob/master/snippets/battery-status/status.go)
+
 ## USB charge sensor
 
 **Pathname** `/sys/devices/platform/soc/1f03400.rsb/sunxi-rsb-3a3/axp20x-usb-power-supply/power_supply/axp20x-usb`
