@@ -42,7 +42,11 @@ Pipe the command to `atinout - /dev/EG25.AT -` (This requires access to the `dia
 ### Heading
 
 ```
+# Factory (August 2020 build)
 cat /sys/bus/iio/devices/iio:device2/in_magn_y_raw
+
+# September 2020 Build 
+ cat /sys/bus/iio/devices/iio\:device3/in_magn_y_raw 
 ```
 
 ## Accelerometer
