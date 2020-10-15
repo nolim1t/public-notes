@@ -2,6 +2,14 @@
 
 This document is for accessing different parts of the hardware for development.
 
+## ADC Device 
+
+Seems to be able to get temperature
+
+* `/sys/bus/iio/devices/iio\:device0/uevent` - All stats regarding device 
+* `/sys/bus/iio/devices/iio\:device0/in_temp_raw` - device temperature (i think battery temp?)
+
+
 ## Battery Sensor
 
 **Pathname:** `/sys/class/power_supply/axp20x-battery`
