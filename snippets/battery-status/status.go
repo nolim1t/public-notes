@@ -19,7 +19,7 @@ func main() {
     var battery_capacity = "/sys/class/power_supply/axp20x-battery/capacity"
 
     if (stringtofile(battery_exists) == "1") {
-        fmt.Printf("Battery Capacity: %s percent", stringtofile(battery_capacity))
+        fmt.Printf("Battery Capacity: %s percent\n", stringtofile(battery_capacity))
     } else {
         fmt.Print("Battery doesnt exist")
     }
