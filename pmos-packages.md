@@ -63,6 +63,9 @@ ln -s ~/src/dotfiles/nvim/init.vim init.vim
 - jq
 - autossh
 - tinyproxy
+- autoconf (required for building [this]( git@github.com:nolim1t/mkp224o.git))
+- libsodium-dev (required for building [this]( git@github.com:nolim1t/mkp224o.git))
+- libsodium
 
 ### RC Update stuff after
 
